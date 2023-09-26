@@ -1,0 +1,71 @@
+.body{
+    justify-content: center;
+    align-items: center;
+    background-color: black
+}
+
+.imagesDiv, .buttonDiv, .TablesDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagesDiv{
+    padding-top: 20px;
+}
+
+.buttonDiv{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.TablesDiv{
+    padding-bottom: 10px; 
+}
+
+.myButton{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.deleteButton{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    border: 1px solid white;
+}
+  
+.myButton:hover, .deleteButton:hover, .redirectLink:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.myTable {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+    max-width: 80%;
+}
+
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    padding: 10px 20px;
+
+}
+
+th{
+    background: #AFCDE7;
+    color: white;
+}
+
+td {
+    background: #D8E6F3;
+}

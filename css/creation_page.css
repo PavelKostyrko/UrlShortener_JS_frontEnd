@@ -1,0 +1,69 @@
+.body{
+    justify-content: center;
+    align-items: center;
+    background-color: black
+}
+
+.mainDiv, .buttonDiv, .imagesDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagesDiv{
+    padding-top: 20px;
+}
+
+.buttonDiv{
+    padding-top: 50px;
+}
+
+.mainDiv{
+    padding-bottom: 10px;
+    height: 65vh;
+}
+
+.inputText, .shortLink{
+    margin: 50px;
+    height: 30px;
+    width: 260px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: none;
+    color: white;
+    padding: 0 10px;
+    outline: none;
+}
+
+.shortLink:hover{
+    cursor: pointer;   
+}
+
+.doButton, .changeButton{
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.BackButton{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.changeButton{
+    width: 200px;
+    height: 50px;
+}
+  
+.doButton:hover,.BackButton:hover, .changeButton:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+}
